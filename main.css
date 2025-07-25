@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.header a:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 60px; /* To prevent content from being hidden behind the fixed header */
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+  body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        .cv-wrapper {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 4px 24px #0002;
+            display: flex;
+            overflow: hidden;
+        }
+        .cv-left {
+            background: #3b5d5c;
+            color: #fff;
+            width: 320px;
+            padding: 36px 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            margin-bottom: 18px;
+            background: #eee;
+        }
+        .cv-left h2 {
+            margin: 0 0 8px 0;
+            font-size: 1.5em;
+            letter-spacing: 1px;
+        }
+        .cv-left .profile-desc {
+            font-size: 1em;
+            margin-bottom: 28px;
+            text-align: center;
+            opacity: 0.95;
+        }
+        .cv-section-title {
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            margin: 24px 0 10px 0;
+            font-weight: bold;
+            color: #e6e6e6;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 16px 0;
+            font-size: 1em;
+        }
+        .contact-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .contact-list a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .contact-list a:hover {
+            color: #ffd700;
+        }
+        .cv-right {
+            flex: 1;
+            padding: 40px 36px;
+        }
+        .cv-right h1 {
+            margin: 0 0 6px 0;
+            font-size: 2.3em;
+            letter-spacing: 2px;
+            color: #3b5d5c;
+        }
+        .cv-right .subtitle {
+            color: #888;
+            font-size: 1.1em;
+            margin-bottom: 24px;
+        }
+        .cv-block {
+            margin-bottom: 28px;
+        }
+        .cv-block h3 {
+            margin: 0 0 10px 0;
+            color: #3b5d5c;
+            font-size: 1.15em;
+            letter-spacing: 1px;
+        }
+        .cv-block ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+        .cv-block ul li {
+            margin-bottom: 6px;
+            font-size: 1em;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #e0f2f1;
+            color: #2d4746;
+            padding: 6px 16px;
+            border-radius: 16px;
+            font-size: 1em;
+        }
+        .contact-link {
+            transition: color 0.2s, background 0.2s, padding-left 0.2s;
+            border-radius: 4px;
+            padding-left: 0;
+            display: inline-block;
+        }
+        .contact-link.email:hover {
+            color: #fff;
+            background: #ffd700;
+            padding-left: 10px;
+        }
+        .contact-link.wa:hover {
+            color: #fff;
+            background: #25D366;
+            padding-left: 10px;
+        }
+        .contact-link.ig:hover {
+            color: #fff;
+            background: #E1306C;
+            padding-left: 10px;
+        }
+        @media (max-width: 800px) {
+            .cv-wrapper { flex-direction: column; }
+            .cv-left, .cv-right { width: 100%; padding: 28px 18px; }
+            .cv-right { padding-top: 0; }
+        }
